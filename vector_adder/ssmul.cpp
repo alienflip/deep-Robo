@@ -18,13 +18,13 @@ void ssmul(hls::stream< pkt > &INPUT0, hls::stream< pkt > &INPUT1, hls::stream< 
 	while(1){
 		INPUT0.read(data_p);
 		INPUT1.read(data_q);
-        
-        data_r.dest = data_p.dest;
-        data_r.id = data_p.id;
-        data_r.keep = data_p.keep;
-        data_r.last = data_p.last;
-        data_r.strb = data_p.strb;
-        data_r.user = data_p.user;
+
+		data_r.dest = data_p.dest;
+		data_r.id = data_p.id;
+		data_r.keep = data_p.keep;
+		data_r.last = data_p.last;
+		data_r.strb = data_p.strb;
+		data_r.user = data_p.user;
 
 		data_r.data = data_p.data + data_q.data;
 		OUTPUT.write(data_r);
