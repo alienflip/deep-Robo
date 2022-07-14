@@ -12,6 +12,6 @@ The following uses this [FPGA guide](https://pynq.readthedocs.io/en/latest/getti
 
 ### design and use examples
 
-0. [Vector adder](./vector_adder) following [this example](https://pp4fpgas.readthedocs.io/en/latest/axidma2.html)
+0. [Vector adder](./vector_adder)
 
 1. [Matrix multiplier](./matrix_multiplier)
