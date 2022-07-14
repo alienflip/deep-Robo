@@ -4,7 +4,7 @@ The following uses this [FPGA guide](https://pynq.readthedocs.io/en/latest/getti
 
 ### setup
 
-> [Download](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html) programmable logic design software: here we use `version 2020.2`
+> [Download](https://www.xilinx.com/support/download/index.html/content/xilinx/en/downloadNav/vivado-design-tools/archive.html) programmable logic design software: here we use `version 2022.1`
 
 > [Download](http://www.pynq.io/board.html) microSD card board image, write to [microSD](https://sourceforge.net/projects/win32diskimager/)
 
