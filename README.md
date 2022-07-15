@@ -13,3 +13,7 @@ The following uses this [FPGA guide](https://pynq.readthedocs.io/en/latest/getti
 ### design and use examples
 
 0. [Vector adder](./vector_adder)
+
+### forked and updated examples
+
+0. [Matrix multiplication](./matrix_multiply/)
